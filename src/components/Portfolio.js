@@ -1,5 +1,4 @@
 import React from 'react'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import content from '../content'
 import {Link as ScrollLink} from 'react-scroll'
 import { ChevronUpIcon } from '@heroicons/react/outline'
