@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6807a0de.chunk.css",
-    "main.js": "/portfolio/static/js/main.59f18457.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.59f18457.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/css/2.28a45c22.chunk.css": "/portfolio/static/css/2.28a45c22.chunk.css",
-    "static/js/2.e5daf84e.chunk.js": "/portfolio/static/js/2.e5daf84e.chunk.js",
-    "static/js/2.e5daf84e.chunk.js.map": "/portfolio/static/js/2.e5daf84e.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.6baf832a9f74becc8fe042fe7c814d6a.js": "/portfolio/precache-manifest.6baf832a9f74becc8fe042fe7c814d6a.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.28a45c22.chunk.css.map": "/portfolio/static/css/2.28a45c22.chunk.css.map",
-    "static/css/main.6807a0de.chunk.css.map": "/portfolio/static/css/main.6807a0de.chunk.css.map",
-    "static/js/2.e5daf84e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e5daf84e.chunk.js.LICENSE.txt",
-    "static/media/portfolio.css": "/portfolio/static/media/stacked-waves.20103f65.svg"
+    "main.css": "/static/css/main.d5890793.chunk.css",
+    "main.js": "/static/js/main.aa2ddadf.chunk.js",
+    "main.js.map": "/static/js/main.aa2ddadf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.28a45c22.chunk.css": "/static/css/2.28a45c22.chunk.css",
+    "static/js/2.e5daf84e.chunk.js": "/static/js/2.e5daf84e.chunk.js",
+    "static/js/2.e5daf84e.chunk.js.map": "/static/js/2.e5daf84e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ea2fca61b5443e121277a60a7fedfc13.js": "/precache-manifest.ea2fca61b5443e121277a60a7fedfc13.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.28a45c22.chunk.css.map": "/static/css/2.28a45c22.chunk.css.map",
+    "static/css/main.d5890793.chunk.css.map": "/static/css/main.d5890793.chunk.css.map",
+    "static/js/2.e5daf84e.chunk.js.LICENSE.txt": "/static/js/2.e5daf84e.chunk.js.LICENSE.txt",
+    "static/media/portfolio.css": "/static/media/stacked-waves.20103f65.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.28a45c22.chunk.css",
     "static/js/2.e5daf84e.chunk.js",
-    "static/css/main.6807a0de.chunk.css",
-    "static/js/main.59f18457.chunk.js"
+    "static/css/main.d5890793.chunk.css",
+    "static/js/main.aa2ddadf.chunk.js"
   ]
 }
