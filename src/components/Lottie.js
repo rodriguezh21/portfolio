@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import lottie from 'lottie-web'
-import 'animate.css'
+
 export default function Lottie () {
   const container = useRef(null)
 

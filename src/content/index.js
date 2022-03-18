@@ -9,17 +9,17 @@ export default {
     
   },
   header: {
-    img:
-      '',
+    img: process.env.PUBLIC_URL + '/assets/developer.png',
+
     imgPlaceholder:
-      'data:image/jpeg;base64,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',
-    text: ['Hi!', `I'm Herson Rodriguez.`, 'I am a '],
-    typical: ['software developer', 2000, 'mobile/web developer', 2000],
+      'https://wallpaperaccess.com/full/1129018.jpg',
+    text: ['Hi!', `rson`, `driguez.`, 'I am a '],
+    typical: ['software developer', 2000, 'web developer', 2000],
     btnText: 'Discover More'
   },
 
   stack: {
-    title: 'Stack',
+    title: 'Services',
     tech: [
       {
         img: process.env.PUBLIC_URL + '/assets/mongo.png',
@@ -38,7 +38,7 @@ export default {
         alt: 'node'
       }
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`
+    desc: `I curate experiences with technology.`
   },
   callouts: [
     {
@@ -61,6 +61,38 @@ export default {
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
+    },
+  ],
+   projects: [
+    {
+      title: 'Front End',
+      desc:
+        'I value simple content structure, clean design patterns, and thoughtful interactions using:',
+      langs: 'UI, UX, WEB',
+      href: '#',
+      tools:
+        'Html, Css, Js, React, Tailwind, Bootstrap, Bulma, Material UI, Hosting',
+      icon: 'https://cdn-icons-png.flaticon.com/512/711/711284.png'
+    },
+    {
+      title: 'Back End',
+      desc:
+        'I like to code things from scratch, and enjoy bringing ideas to life in the browser using:',
+      href: '#',
+      langs: 'PWAS, MERN, CRUD',
+      tools: 'Node, Git, Firebase, AWS',
+      icon: 'https://cdn-icons-png.flaticon.com/512/984/984196.png'
+    },
+    {
+      title: 'Web Design',
+      desc:
+        'I value simple content structure, clean design patterns, and thoughtful interactions.',
+      langs: 'WORDPRESS, SQUARESPACE, SHOPIFY',
+      href: '#',
+      tools: '',
+      icon:
+        'https://cdn-icons-png.flaticon.com/512/711/711284.png',
+      placeholder: ''
     },
   ]
 }
