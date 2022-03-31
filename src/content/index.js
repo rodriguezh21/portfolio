@@ -14,7 +14,7 @@ export default {
     imgPlaceholder:
       'https://wallpaperaccess.com/full/1129018.jpg',
     text: ['Hi!', `rson`, `driguez.`, 'I am a '],
-    typical: ['software developer', 2000, 'web developer', 2000],
+    typical: ['web developer', 1000, 'software developer', 1000, 'full stack engineer', 1000],
     btnText: 'Discover More'
   },
 
@@ -62,37 +62,88 @@ export default {
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
     },
+    {
+      name: 'Fun',
+      description: 'Daily commute essentials',
+      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+      href: '#',
+    },
   ],
    projects: [
+     {
+       title: 'Web Design',
+       desc:
+       'I value simple content structure, clean design patterns, and thoughtful interactions.',
+       langs: 'WORDPRESS, SQUARESPACE, SHOPIFY',
+       href: '#',
+       tools: 'SEO',
+       icon:
+       'https://cdn-icons-png.flaticon.com/512/711/711284.png',
+       placeholder: ''
+     },
+     {
+       title: 'Back End',
+       desc:
+       'I like to code things from scratch, and enjoy bringing ideas to life in the browser using:',
+       href: '#',
+       langs: 'PWAS, MERN, CRUD',
+       tools: 'Node, Git, Firebase, AWS',
+       icon: 'https://cdn-icons-png.flaticon.com/512/984/984196.png'
+      },
+      {
+        title: 'Front End',
+        desc:
+          'I value simple content structure, clean design patterns, and thoughtful interactions using:',
+        langs: 'UI, UX, WEB',
+        href: '#',
+        tools:
+          'Html, Css, Js, React, Tailwind, Bootstrap, Bulma, Material UI, Hosting',
+        icon: 'https://cdn-icons-png.flaticon.com/512/711/711284.png'
+      }
+      
+  ],
+   collabs: [
     {
-      title: 'Front End',
-      desc:
-        'I value simple content structure, clean design patterns, and thoughtful interactions using:',
-      langs: 'UI, UX, WEB',
-      href: '#',
-      tools:
-        'Html, Css, Js, React, Tailwind, Bootstrap, Bulma, Material UI, Hosting',
-      icon: 'https://cdn-icons-png.flaticon.com/512/711/711284.png'
+      title: 'Company 1',
+      size: 'Website',
+      source:
+            'https://picsum.photos/id/1059/440/467?grayscale'
     },
     {
-      title: 'Back End',
-      desc:
-        'I like to code things from scratch, and enjoy bringing ideas to life in the browser using:',
-      href: '#',
-      langs: 'PWAS, MERN, CRUD',
-      tools: 'Node, Git, Firebase, AWS',
-      icon: 'https://cdn-icons-png.flaticon.com/512/984/984196.png'
+        title: 'Company 2',
+        size: 'Website',
+        source:
+          'https://picsum.photos/id/326/440/467?grayscale',
+      },
+      {
+        title: 'Company 3',
+        size: 'Website',
+        source:
+          'https://picsum.photos/id/1060/440/467?grayscale',
+      },
+      {
+        title: 'Company 4',
+        size: 'Website',
+        source:
+          'https://picsum.photos/id/341/440/467?grayscale',
+      },
+  ],
+  links: [
+    {
+      title: 'Github',
+      link: 'https://github.com/rodriguezh21',
+      img: 'https://joshuapenalba.files.wordpress.com/2014/12/github-icon.png?w=640'
     },
     {
-      title: 'Web Design',
-      desc:
-        'I value simple content structure, clean design patterns, and thoughtful interactions.',
-      langs: 'WORDPRESS, SQUARESPACE, SHOPIFY',
-      href: '#',
-      tools: '',
-      icon:
-        'https://cdn-icons-png.flaticon.com/512/711/711284.png',
-      placeholder: ''
+      title: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/herson-rodriguez/',
+      img: 'https://www.freeiconspng.com/uploads/displaying-19-gallery-images-for-linkedin-logo-png-25.png'
+    },
+    {
+      title: 'Email',
+      link: 'mailto:rodriguezh21@gmail.com?subject=',
+      img: 'https://4vector.com/i/free-vector-mail-icon-clip-art_116904_Mail_Icon_clip_art_hight.png'
     },
   ]
 }

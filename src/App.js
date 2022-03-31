@@ -4,16 +4,18 @@ import Navigation from './components/Navigation'
 import Portfolio from './components/Portfolio'
 import Stack from './components/Stack'
 import Footer from './components/Footer'
+import Collabs from './components/Collabs'
 function App () {
   return (
     <>
-      <div>
+      
         <Navigation />
         <Header />
         <Stack />
         <Portfolio />
+        <Collabs />
         <Footer />
-      </div>
+      
     </>
   )
 }

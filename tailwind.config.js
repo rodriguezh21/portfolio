@@ -10,7 +10,7 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: '375px',
+      sm: '271px',
       md: '768px',
       lg: '1024px',
       xl: '1280px'
@@ -21,6 +21,7 @@ module.exports = {
       primary: '#1D1D1D',
       secondary: '#222',
       tertiary: '#fff',
+      neon: '#7510F7',
 
       gray: {
         100: '#f3f4f6',
@@ -785,7 +786,7 @@ module.exports = {
     backgroundAttachment: ['responsive'],
     backgroundClip: ['responsive'],
     backgroundColor: ['responsive', 'hover', 'focus'],
-    backgroundImage: ['responsive'],
+    backgroundImage: ['responsive', 'hover'],
     gradientColorStops: ['responsive', 'hover', 'focus'],
     backgroundOpacity: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],

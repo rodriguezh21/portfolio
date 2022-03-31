@@ -19,25 +19,17 @@ export default function Navigation () {
         }}
       >
         <div
-          className='justify-between w-10/12 mx-auto py-3 p-6 text-white font-dosis '
+          className=' top-0 justify-between w-10/12 mx-auto py-3 p-6 text-white font-dosis sm:border-0 sm:border-none focus:outline-none'
           id='header'
         >
-          {/* <img src={content.nav.logo}
-          className='h-20 w-20'
-        /> */}
-          {/* <span className='w-3 h-3 bg-red-500 inline-block rounded-full animate__fadeIn animate__delay-2s'></span> */}
-
           <div className='flex'>
-            {/* <button type='button' className='text-xl mr-4 focus:outline-none'>
-                {content.nav.contactLink.text}
-              </button> */}
-
             <ScrollLink to='mywork' smooth={true}>
               <button
                 type='button'
                 className={`${
                   animated ? '' : 'translate-x-10 opacity-0'
                 } transform transition duration-500 ease-in-out text-gray-300 text-xl mr-4 hover:-translate-x-1 focus:outline-none hover:text-lime-300`}
+                alt='mywork'
               >
                 {content.nav.workLink.text}
               </button>
