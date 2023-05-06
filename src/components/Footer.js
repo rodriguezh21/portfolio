@@ -4,7 +4,7 @@ export default function Footer () {
   return (
     <div className='min-h-full font-serif bg-neon py-8'>
       <main className='-mt-32'>
-        <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='max-w-5xl mx-auto px-4 md:px-20 lg:px-8'>
           <div className='relative bg-primary rounded-2xl shadow px-6 py-6 sm:px-6 sm:py-8 text-center sm:flex-col lg:flex-row flex justify-evenly items-center'>
             <div>
               <h1 className='text-tertiary text-3xl py-4'>Start a Project</h1>

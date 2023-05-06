@@ -23,17 +23,19 @@ export default function Stack () {
 
         <main className='-mt-32 '>
           <div className='max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 pb-48 '>
-          <ul  className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+          <ul  className="text-center grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 lg:grid-cols-2 xl:gap-x-8">
       {content.collabs.map((collab) => (
         <li key={collab.source} className="relative">
-          <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
-            <img src={collab.source} alt="" className="object-cover pointer-events-none hover:opacity-75" />
+          <a href={collab.href} target="_blank" rel="noopener noreferrer">
+          <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-tertiary focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+            <img src={collab.source} alt="brand logos" className="w-full pointer-events-none hover:opacity-75" />
             <button type="button" className="absolute inset-0 focus:outline-none">
               <span className="sr-only">View details for {collab.title}</span>
             </button>
           </div>
+          </a>
           <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{collab.title}</p>
-          <p className="block text-sm font-medium text-gray-500 pointer-events-none">{collab.size}</p>
+          
         </li>
       ))}
     </ul>

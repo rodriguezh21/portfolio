@@ -1,6 +1,4 @@
 import React from 'react'
-import { ChevronDownIcon } from '@heroicons/react/outline'
-import { Link as ScrollLink } from 'react-scroll'
 import content from '../content'
 
 import '../styles/portfolio.css'
@@ -10,25 +8,23 @@ export default function Stack () {
     <>
       <div className='min-h-full font-serif ' id='stack'>
         <div className='bg-primary pb-48 sm:border-0 sm:border-none'>
-          <header className='py-20 '>
+          <header className='py-10 '>
             <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
               <h1 className='text-2xl font-bold text-center text-tertiary uppercase'>
                 About Me
               </h1>
-              <h3 className='pt-10  text-xl font-bold text-center text-gray-200 '>
-                I provide web solutions for small businesses, design and develop
-                beautiful portfolio websites, and often collaborate in apps as a
-                full stack consultant. I'm quietly confident, naturally curious,
-                and perpetually working on improving my work one design problem
-                at a time.
+              <h3 className='pt-10 md:px-20 text-lg font-bold text-center text-gray-200 '>
+                I provide web solutions for businesses, design and develop
+                beautiful portfolio websites, and collaborate in apps. I'm quietly confident, naturally curious,
+                and perpetually working on improving my work every time.
               </h3>
             </div>
           </header>
         </div>
 
         <main className='-mt-32 '>
-          <div className='max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 pb-48 '>
-            <ul className='relative group grid grid-cols-1 gap-4 sm:w-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='max-w-5xl mx-auto px-6 md:px-20 lg:px-8 pb-32 '>
+            <ul className='relative group grid grid-cols-1 gap-4 sm:w-auto md:grid-cols-1 lg:grid-cols-2'>
               {content.projects.map(project => (
                 <li
                   key={project.title}
@@ -66,13 +62,7 @@ export default function Stack () {
                 </li>
               ))}
             </ul>
-            <div className='text-center mt-10'>
-              <ScrollLink to='mywork' smooth={true}>
-                <button className=' animate-ping px-10 py-10 focus:outline-none'>
-                  <ChevronDownIcon className='h-6 w-6' />
-                </button>
-              </ScrollLink>
-            </div>
+            
           </div>
         </main>
       </div>

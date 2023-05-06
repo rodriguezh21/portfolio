@@ -15,8 +15,8 @@ export default function Header2 () {
   }, [])
   return (
     <>
-      <div className=' min-h-screen pt-8 mb-0 flex items-center sm:border-0 sm:border-none justify-center bg-primary'>
-        <div className=' p-8 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 '>
+      <div className=' min-h-screen pt-4 mb-0 flex items-center sm:border-0 sm:border-none justify-center bg-primary'>
+        <div className=' p-8 max-w-7xl px-2 py-6  lg:px-4 '>
           <div className='text-tertiary font-serif text-center md:text-left'>
             <h2
               className={`${

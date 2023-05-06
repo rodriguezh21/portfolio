@@ -4,7 +4,7 @@ import Navigation from './components/Navigation'
 import Portfolio from './components/Portfolio'
 import Stack from './components/Stack'
 import Footer from './components/Footer'
-import Collabs from './components/Collabs'
+// import Collabs from './components/Collabs'
 function App () {
   return (
     <>
@@ -13,7 +13,7 @@ function App () {
         <Header />
         <Stack />
         <Portfolio />
-        <Collabs />
+        {/* <Collabs /> */}
         <Footer />
       
     </>
